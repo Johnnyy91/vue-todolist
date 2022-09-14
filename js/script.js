@@ -43,7 +43,6 @@ const app = new Vue(
                     text: this.newTodo.trim(),
                     done: false,
                 }
-                console.log(toDoToInsert)
                 if (toDoToInsert) {
                     this.todos.push(toDoToInsert);
 
@@ -54,6 +53,7 @@ const app = new Vue(
                 console.log(this.todos)
                 this.newTodo = '';
             },
+            //BONUS-2
             changeTodo(i){
                 this.todos[i].done = !this.todos[i].done
             }
