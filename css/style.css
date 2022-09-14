@@ -26,7 +26,7 @@ h1{
     list-style-type: none;
     padding: 20px 10px;
     margin: 10px 0px;
-    background-color: green;
+    background-color: coral;
 }
 
 .todo-container li {
@@ -36,4 +36,8 @@ h1{
 
 .textline {
     text-decoration: line-through;
+}
+
+.pointer:hover{
+    cursor: pointer;
 }
